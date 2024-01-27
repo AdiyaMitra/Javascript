@@ -1,5 +1,5 @@
 const accountId = 12345;                //to declare constant can't be changed
-let accounEmail = `abcd@gmail.com`;     // let is block scoped
+let accounEmail = `abcd@gmail.com`;     // let is block scoped, less confusion os accessibility
 var accountPassword = `54321`;          // but var is function scoped, and we don't prffer to use var because of confusion of accessibility
 accountCity = `Kolkata`;                // javascript allows to make variables without declaring  VAR or LET but this is no a good way to write code
 let accountState ;                      // if no value in variable is decleared then it'll store undefined

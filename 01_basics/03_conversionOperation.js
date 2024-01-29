@@ -65,3 +65,45 @@ console.log(aNumber);                       // 33
 let stringNumber = String(aNumber);
 console.log(typeof stringNumber);           // string
 console.log(stringNumber);                  // 33
+
+
+//=============================================OPERATIONS=============================================//
+
+console.log(`=============================================OPERATION=============================================`);
+
+let val1 = 3;
+let negVal = -val1;
+console.log(negVal);        // -3
+
+console.log(3+2);           // 5
+console.log(3-2);           // 1
+console.log(3*2);           // 6
+console.log(3**2);          // 9
+console.log(3/2);           // 1.5
+console.log(3%2);           // 1
+
+//--------------------concatination--------------------
+let str1 = `hello`;
+let str2 = ` aditya`;
+let str3 =  str1 + str2;
+console.log(str3);          // hello aditya
+
+console.log("1" + 2);       // 12
+console.log(1 + "2");       // 12
+console.log(1 + 2 + `3`);   // 33
+console.log(1 + `2` + 3);   // 123
+console.log(`1` + 2 + 3);   // 123
+
+console.log(true);          // true
+console.log(+true);         // 1 this is returning 1 because it converts the value of true in  numaric that is 1  AND console.log(true+); will return error
+
+//--------------------prefix and postfix--------------------
+
+console.log(`--------------------prefix and postfix--------------------`);
+let prePost1 = 5;
+let prePost2 = 8;
+
+console.log(prePost1++);    // 5 first the value is working then the operation happening
+console.log(++prePost2);    // 9 first the operation is working then the value happening
+console.log(prePost1);      // 6 incremented value printed
+console.log(prePost2);      // 9 incremented value printed

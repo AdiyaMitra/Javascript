@@ -24,9 +24,7 @@ console.log(jsUser[`fullName`]);
 
 // ***IMPORTANT***  //
 
-console.log(jsUser.mySym);
-console.log(typeof jsUser.mySym);
-console.log(jsUser[mySym]);
+console.log(jsUser[mySym]);                         // For accessing Symbols inside an Object
 console.log(typeof(jsUser[mySym]));
 
 jsUser.email = `aditya@yahoo.com`;
@@ -38,6 +36,8 @@ console.log(jsUser["full name"]);
 
 console.log(jsUser);
 
+// ***METHODS*** //
+/* A FUNCTION inside an OBJECT is known as METHOD */
 
 const obj1 = {
     name : `Aditya`,

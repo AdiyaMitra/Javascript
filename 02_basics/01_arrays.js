@@ -52,3 +52,5 @@ console.log("C ", myArr);
 // SLICE takes the the valuie with in the range given and the last element of the range is not added, AND IT DOSE NOT MANUPULATE THE ORIGINAL ARRAY
 /* SPLICE takes the the valuie with in the range given and the last element of the range is added, BUT THE DIFFERENCE IS IT TOOK THAT PART FROM THE ORIGINAL ARRAY AND 
                                                                                                    MANUPULATE THE ORIGINAL ARRAY */
+
+                                                                                                   
